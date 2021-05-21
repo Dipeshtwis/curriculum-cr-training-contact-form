@@ -327,7 +327,10 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-/* My Footer */
+.flex-prop {
+  display: flex;
+  align-items: center;
+}
 
 .contact-container {
   display: flex;
@@ -347,9 +350,7 @@ li {
 }
 
 form {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0;
   margin: 0 auto;
 }
@@ -378,8 +379,6 @@ form textarea:focus {
 }
 
 .btn {
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: bold;
