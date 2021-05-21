@@ -389,3 +389,15 @@ form textarea:focus {
   margin: 24px 0;
   padding: 12px 22px;
 }
+
+.btn:hover {
+  color: #ff6b00;
+  background-color: #fff;
+  border: 3px solid #ff6b00;
+}
+
+.btn:active {
+  background-color: #eee;
+  color: #222;
+  border: none;
+}
