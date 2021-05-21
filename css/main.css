@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 a {
@@ -326,14 +327,16 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-.footer-container {
+/* My Footer */
+
+.contact-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
 }
 
-.footer-title {
+.contact-title {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -348,4 +351,42 @@ form {
   flex-direction: column;
   align-items: center;
   padding: 0;
+  margin: 0 auto;
+}
+
+form input {
+  border-bottom: 1px solid #dbd8d7;
+  color: #979493;
+}
+
+form input,
+form textarea {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 24px 0;
+  padding: 10px 2px;
+}
+
+form textarea {
+  background-color: #fbf8f7;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  color: black;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #ff6b00;
+  margin: 24px 0;
+  padding: 12px 22px;
 }
